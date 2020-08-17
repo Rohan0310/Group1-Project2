@@ -16,6 +16,7 @@ body, html {
 .logo-navbar {
     background: #228da0;
     border-bottom: 1vh solid #28201e;
+    font-size: large;
 }
 /*Logo in Header */
 .logo-image-span {
