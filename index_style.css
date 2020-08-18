@@ -12,33 +12,44 @@ body, html {
 
 .header {
     width: 100vw;
+    
+    
 }
 .logo-navbar {
     background: #228da0;
-    border-bottom: 1vh solid #28201e;
+    border-bottom: 0vh solid #28201e;
+    margin-bottom: 0vw;
     font-size: large;
-}
+    
+ 
+    }
 
 .logo-image-span {
     margin-left: 3vw;
     margin-top: 5%;
+    
 }
 .logo-image {
-    height: 15vh;
+    height: 12vh;
+    margin-bottom: 6vw;
+    position: absolute;
+    right: 6vw;  
+    
 }
 
 .nav-bar {
     color: #030808;
     text-decoration: none;
-    text-align: right;
-    word-spacing: 2.7vw;
-    font-size: 1.3em;
+    text-align: left;
+    word-spacing: 2.9vw;
+    font-size: 1.7em;
     position: relative;
-    left: 52.5vw;
-    display: inline-block;
+    left: 1vw;
+    bottom: 5vw;
+    display: contents;
 }
 .navigation {
-    text-decoration: none;
+    text-decoration: underline;
     color: #030808;
 }
 .navigation :link {
@@ -83,11 +94,11 @@ hr {
     font-size: 1.25em;
 }
 .services-statement {
-    margin-top: -5vh;
+    margin-top: -28vh;
 }
 .services-list {
     
-    display: flex;
+    display: flow-root;
     margin-left: 7vw;
     width: 80vw;
 }
