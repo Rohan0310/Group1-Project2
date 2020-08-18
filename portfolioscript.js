@@ -10,7 +10,9 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-function topFunction() {
+
+mybutton.addEventListener("click", function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
+});
+

@@ -2,8 +2,8 @@
     width: device-width;
 }
 * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    font-family: "Times New Roman", Times, serif;
     padding: 0;
     border: 0;
 }
@@ -11,46 +11,39 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Header, Body Section */
+
 .header {
-    margin-top: 6vh;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: 9vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     margin-bottom: 0vh;
 }
 .section {
-    margin-top: -4vh;
-    margin-bottom: -4vh;
+    margin-top: -14vh;
+    margin-bottom: -14vh;
 }
 .header, .section {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
+    margin-left: 2.0vw;
+    margin-right: 2.0vw;
     background: white;
 }
 .header-inside, .section-inside {
-    margin-left: 3vw;
-    margin-right: 3vw;    
+    margin-left: 6vw;
+    margin-right: 6vw;    
 }
 .header-inside {
-    display: flex;
+    display:flex;
 }
 
-/*Word Icon*/
-.circle {
-    height:66px;
-    width: 66px;
-    border-radius: 50%;
-    background: #01a2ff;
-    margin-top: 1vh;
-    margin-left: 1vw;
-}
+
+
 .first-word {
     color: white;
     margin-left: -3.6vw;
     margin-top: 2vh;
 }
 .full-name {
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 .lname {
     color: rgb(70, 70, 70);
@@ -58,9 +51,9 @@ html {
 .header-inside .options {
     display: flex;
     align-items: center;
-    margin-left:15vw;
-    text-decoration: none;
-    margin-top: -3vh;
+    margin-left: 37vw;
+    text-decoration: underline;
+    margin-top: -1vh;
 }
 .options-items:hover {
     color: black;
@@ -76,8 +69,7 @@ html {
     margin-right: 8.5vw;
 }
 .myimage {
-    width: 15vw;
-    /* height: 30vh; */
+    width: 15vw;    
     border-radius: 50%;
 }
 .image-container-left {
@@ -87,7 +79,7 @@ html {
 .ny-data-right {
     width: 75vw;
     position: relative;
-    display: grid;
+    display: flex;
 }
 .mycv, .mycontact {
     width: 15vw;
@@ -96,7 +88,7 @@ html {
     border: 1px solid gray;
     box-shadow: 1px 1px 1px 1px gray;
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .mycv:hover, .mycontact:hover {
     border: 1px solid #01a2ff;
@@ -109,7 +101,7 @@ html {
 
 
 
-/*Education Department */
+
 #education-link {
     margin-left: 7vw;
 }
@@ -138,7 +130,7 @@ html {
     width: 30vw;
 }
 
-/*Separator*/
+
 .separator1 {
     width: 11vw;
     height: .4vh;
@@ -148,7 +140,7 @@ html {
 }
 
 
-/* Skills */
+
 #skills-link {
     margin-left: 7vw;
 }
@@ -177,7 +169,7 @@ html {
     width: 30vw;
 }
 
-/*Volunteer*/
+
 #volunteer-link {
     margin-left: 7vw;
 }
@@ -206,7 +198,7 @@ html {
     width: 30vw;
 }
 
-/* Experience */
+
 #experience-link {
     margin-left: 7vw;
 }
@@ -235,7 +227,7 @@ html {
     width: 30vw;
 }
 
-/* Hobbies */
+
 #hobbies-link {
     margin-left: 7vw;
 }
@@ -264,7 +256,7 @@ html {
 .para-details-hobbies {
     width: 30vw;
 }
-/*Projects*/
+
 #projects-link {
     margin-left: 6.9vw;
 }
@@ -295,7 +287,7 @@ html {
 }
 
 
-/*Contact Details in Footer */
+
 #footer {
     margin-top: 0vh;
     margin-bottom: 6vh;
@@ -303,8 +295,8 @@ html {
     border-bottom-right-radius: 25px;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-    background: white ;
-    box-shadow: 0.1px 0.1px 10px 0.1px black;
+    background: black ;
+    box-shadow: 0.1px 0.1px 10px 0.1px white;
     text-align: right;
 }
 .footer-logo {

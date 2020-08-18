@@ -9,7 +9,7 @@ body, html {
     margin: 0%;
     scroll-behavior: smooth;
 }
-/*Header Area*/
+
 .header {
     width: 100vw;
 }
@@ -18,7 +18,7 @@ body, html {
     border-bottom: 1vh solid #28201e;
     font-size: large;
 }
-/*Logo in Header */
+
 .logo-image-span {
     margin-left: 3vw;
     margin-top: 5%;
@@ -26,7 +26,7 @@ body, html {
 .logo-image {
     height: 15vh;
 }
-/*Navigation Bar in Header */
+
 .nav-bar {
     color: #030808;
     text-decoration: none;
@@ -58,7 +58,7 @@ body, html {
     text-decoration: none;
 }
 
-/*Section, Data, Content */
+
 
 .section {
     color: darkblue;
@@ -83,19 +83,19 @@ hr {
     font-size: 1.25em;
 }
 .services-statement {
-    margin-top: -3vh;
+    margin-top: -5vh;
 }
 .services-list {
-    font-size: 1.25em;
+    
     display: flex;
-    margin-left: 10vw;
+    margin-left: 7vw;
     width: 80vw;
 }
 .services-order {
-    width: 20vw;
+    width: 45vw;
 }
 
-/*Images*/
+
 .slider
 {
     width:80vw;
@@ -127,15 +127,15 @@ hr {
     90%{left:-300%;}
     100%{left:-400%;}
 }
-/*Images End*/
-/* FOOTER */
+
+
 .footer {
     margin-top: 3vh;
     width: 100vw;
     color: #d2923a;
     background: #28201e;
     height: 8.5vh;
-    text-align: right;
+    text-align:left;
     margin-right: 3vw;
 }
 .footer img {
