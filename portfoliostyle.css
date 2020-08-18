@@ -3,7 +3,7 @@
 }
 * {
     box-sizing: inherit;
-    font-family: Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     padding: 0;
     border: 0;
 }
@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Header, Body Section */
+
 .header {
     margin-top: 9vh;
     border-top-left-radius: 50px;
@@ -51,9 +51,9 @@ html {
 .header-inside .options {
     display: flex;
     align-items: center;
-    margin-left:15vw;
-    text-decoration: none;
-    margin-top: -3vh;
+    margin-left: 37vw;
+    text-decoration: underline;
+    margin-top: -1vh;
 }
 .options-items:hover {
     color: black;
@@ -69,8 +69,7 @@ html {
     margin-right: 8.5vw;
 }
 .myimage {
-    width: 15vw;
-    /* height: 30vh; */
+    width: 15vw;    
     border-radius: 50%;
 }
 .image-container-left {
