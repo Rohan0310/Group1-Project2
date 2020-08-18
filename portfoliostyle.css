@@ -291,12 +291,9 @@ html {
 }
 .para-details-projects {
     width: 30vw;
+    
 }
-#mybtn {
-    width: 0.1vw;
-    color: #01a2ff;
-    margin-left: 86.5vw;    
-}
+
 
 /*Contact Details in Footer */
 #footer {
