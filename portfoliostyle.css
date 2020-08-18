@@ -2,8 +2,8 @@
     width: device-width;
 }
 * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    font-family: Times New Roman", Times, serif;
     padding: 0;
     border: 0;
 }
@@ -13,44 +13,37 @@ html {
 
 /* Header, Body Section */
 .header {
-    margin-top: 6vh;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: 9vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     margin-bottom: 0vh;
 }
 .section {
-    margin-top: -4vh;
-    margin-bottom: -4vh;
+    margin-top: -14vh;
+    margin-bottom: -14vh;
 }
 .header, .section {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
+    margin-left: 2.0vw;
+    margin-right: 2.0vw;
     background: white;
 }
 .header-inside, .section-inside {
-    margin-left: 3vw;
-    margin-right: 3vw;    
+    margin-left: 6vw;
+    margin-right: 6vw;    
 }
 .header-inside {
-    display: flex;
+    display:flex;
 }
 
 /*Word Icon*/
-.circle {
-    height:66px;
-    width: 66px;
-    border-radius: 50%;
-    background: #01a2ff;
-    margin-top: 1vh;
-    margin-left: 1vw;
-}
+
 .first-word {
     color: white;
     margin-left: -3.6vw;
     margin-top: 2vh;
 }
 .full-name {
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 .lname {
     color: rgb(70, 70, 70);
@@ -87,7 +80,7 @@ html {
 .ny-data-right {
     width: 75vw;
     position: relative;
-    display: grid;
+    display: flex;
 }
 .mycv, .mycontact {
     width: 15vw;
@@ -306,8 +299,8 @@ html {
     border-bottom-right-radius: 25px;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-    background: white ;
-    box-shadow: 0.1px 0.1px 10px 0.1px black;
+    background: black ;
+    box-shadow: 0.1px 0.1px 10px 0.1px white;
     text-align: right;
 }
 .footer-logo {
