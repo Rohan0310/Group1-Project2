@@ -82,13 +82,16 @@ html {
     display: flex;
 }
 .mycv, .mycontact {
-    width: 15vw;
+    width: 20vw;
     height: 5vh;
-    background: white;
+    background: black;
     border: 1px solid gray;
     box-shadow: 1px 1px 1px 1px gray;
     border-radius: 20px;
     font-size: 1em;
+    color: white;
+    
+    
 }
 .mycv:hover, .mycontact:hover {
     border: 1px solid #01a2ff;
